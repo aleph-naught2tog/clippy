@@ -1,5 +1,7 @@
 # clippy the github extension
 
+![Screenshot](/doc/Screen Shot 2019-02-15 at 1.57.15 AM.png)
+
 * `tsc` to compile
 * `node build` to build the extension
 
