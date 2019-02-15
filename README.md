@@ -1,6 +1,6 @@
 # clippy the github extension
 
-![Screenshot](/doc/Screen Shot 2019-02-15 at 1.57.15 AM.png)
+![Screenshot](https://raw.githubusercontent.com/aleph-naught2tog/clippy/master/doc/screen_shot.png)
 
 * `tsc` to compile
 * `node build` to build the extension
