@@ -1,0 +1,17 @@
+{
+  "name": "GH Clippy",
+  "description": "Add Clippy to your GH",
+  "version": "0.1",
+  "permissions": ["tabs", "<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "js": ["src/inject.js"],
+      "css": ["css/main.css"]
+    }
+  ],
+  "manifest_version": 2,
+  "web_accessible_resources": ["images/clippy.png"]
+}
